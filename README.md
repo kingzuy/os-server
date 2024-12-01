@@ -59,7 +59,7 @@ sudo ufw enable
 # Cek status UFW
 sudo ufw status
 ```
-3. Setup DNS
+3. Setup DNS<br>
 buka cloudflare, lalu add domain , masukan nama domain kalian, lalu next, pilih yang free lalu next, pada bagian `Your assigned Cloudflare nameservers: ` copy paste ke ns domain kalian, lalu click check nameservers now
 <img src="assets/WhatsApp Image 2024-12-02 at 01.54.39_27d82b87.jpg">
 <img src="assets/WhatsApp Image 2024-12-02 at 02.04.13_0f336714.jpg">
