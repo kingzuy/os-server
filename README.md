@@ -1,5 +1,8 @@
 # 🚀 Final Project OS Server & Sistem Admin 🚀
 
+## 🌐 Domain
+[kingzuy.my.id](https://kingzuy.my.id)
+
 ## ✨ Spesifikasi
 - Ubuntu-22.04.5-live-server
 - RAM 2 GB
@@ -56,3 +59,7 @@ sudo ufw enable
 # Cek status UFW
 sudo ufw status
 ```
+3. Setup DNS
+buka cloudflare, lalu add domain , masukan nama domain kalian, lalu next, pilih yang free lalu next, pada bagian `Your assigned Cloudflare nameservers: ` copy paste ke ns domain kalian, lalu click check nameservers now
+<img src="assets/WhatsApp Image 2024-12-02 at 01.54.39_27d82b87.jpg">
+<img src="assets/WhatsApp Image 2024-12-02 at 02.04.13_0f336714.jpg">
