@@ -1,7 +1,7 @@
 # 🚀 Final Project OS Server & Sistem Admin 🚀
 
 ## 🌐 Domain
-<a href="https://kingzuy.my.id" target="_blank" rel="noopener noreferrer">Kingzuy.my.id</a>
+<a href="https://kingzuy.my.id" target="_blank" rel="noopener noreferrer">kingzuy.my.id</a>
 
 ## ✨ Spesifikasi
 - Ubuntu-22.04.5-live-server
