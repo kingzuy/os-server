@@ -5,7 +5,7 @@
 - RAM 2 GB
 - Storage 35 GB
 
-## 🛠 Teknologi yang Digunakan
+## 🛠 Teknologi yang Akan Digunakan
 - Node.js
 - LAMP
 - Docker
@@ -14,5 +14,14 @@
 - Netdata
 
 ## 📈 Progrest
+1. Install openssh:
 
+- melakukan update
+```bash
+sudo apt update && sudo apt upgrade
+```
 
+- install open ssh
+```bash
+sudo apt install openssh-server
+```
