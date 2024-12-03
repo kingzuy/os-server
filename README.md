@@ -15,6 +15,7 @@
 - SSH
 - DNS (30 November 2024)
 - Netdata
+- Firewall (12 Desember 2024) 
 
 ## 📈 Progrest
 1. Install openssh:
