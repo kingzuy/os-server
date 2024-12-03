@@ -64,3 +64,4 @@ buka cloudflare, lalu add domain , masukan nama domain kalian, lalu next, pilih 
 <img src="assets/WhatsApp Image 2024-12-02 at 01.54.39_27d82b87.jpg">
 <img src="assets/WhatsApp Image 2024-12-02 at 02.04.13_0f336714.jpg">
 <img src="assets/WhatsApp Image 2024-12-01 at 18.35.43_b9dbcc4e.jpg">
+<img src="assets/WhatsApp Image 2024-12-01 at 18.33.35_49bc85d7.jpg">
