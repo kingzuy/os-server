@@ -10,7 +10,7 @@
 
 ## 🛠 Teknologi yang Akan Digunakan
 - Node.js
-- LAMP
+- LAMP (12 Desember 2024)
 - Docker
 - SSH
 - DNS (30 November 2024)
