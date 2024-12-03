@@ -59,6 +59,37 @@ sudo ufw enable
 # Cek status UFW
 sudo ufw status
 ```
+- Install mysql
+```bash
+# Install mysql
+sudo apt install mysql-server
+
+# Masuk Mysql
+sudo mysql
+
+# Ganti/Add Password
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+```
+. Install php
+```bash
+# Install php
+sudo apt install php libapache2-mod-php php-mysql
+
+# Cek
+php -v
+
+# Config
+sudo nano /etc/apache2/mods-enabled/dir.conf
+
+# Menjadi seperti ini
+<IfModule mod_dir.c>
+    DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
+```
+- Install phpmyadmin
+```bash
+sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
+```
 3. Setup DNS<br>
 buka cloudflare, lalu add domain , masukan nama domain kalian, lalu next, pilih yang free lalu next, pada bagian `Your assigned Cloudflare nameservers: ` copy paste ke ns domain kalian, lalu click check nameservers now
 <img src="assets/WhatsApp Image 2024-12-02 at 01.54.39_27d82b87.jpg">
