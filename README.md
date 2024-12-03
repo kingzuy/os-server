@@ -13,7 +13,7 @@
 - LAMP
 - Docker
 - SSH
-- DNS
+- DNS (30 November 2024)
 - Netdata
 
 ## 📈 Progrest
