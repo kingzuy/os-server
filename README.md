@@ -186,3 +186,15 @@ sudo ufw enable
 
 - Upload api_jwt
 <img src="assets/Screenshot (76).png">
+
+- Build Docker
+```bash
+# Build image
+ sudo docker build -t os-server .
+
+# Cek image yang dibuat
+docker images
+
+# Run container
+docker run -it -p 3000:3000 --name os-server-container 0s-server
+```
