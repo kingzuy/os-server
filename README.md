@@ -14,9 +14,8 @@
 - Docker (15 Desember 2024)
 - SSH (4 November 2024)
 - DNS (30 November 2024)
-- Netdata
+- Netdata (15 Desember 2024)
 - Firewall (12 Desember 2024)
-- openVPN
 
 ## 📈 Progrest
 1. Install openssh:
