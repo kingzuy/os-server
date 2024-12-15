@@ -133,3 +133,50 @@ sudo apt install docker.io
 ```bash
 docker -v
 ```
+6. Netdata
+- Melakukan update
+```bash
+sudo apt update
+```
+- Install Dependensi yang Diperlukan
+```bash
+sudo apt install -y curl build-essential
+```
+- Jalankan Script Instalasi
+```bash
+sudo bash <(curl -Ss https://my-netdata.io/kickstart.sh)
+```
+- Verifikasi Instalasi
+```bash
+http://localhost:19999
+```
+- Menjalankan dan Mengelola Netdata
+```bash
+# Untuk memulai Netdata, gunakan perintah berikut:
+sudo systemctl start netdata
+
+# Untuk mengaktifkan Netdata agar berjalan otomatis saat boot, jalankan:
+sudo systemctl enable netdata
+```
+- Edit Konfigurasi Netdata
+```bash
+sudo nano /etc/netdata/netdata.conf
+```
+- Cari bagian `web` dalam file konfigurasi ini. Di bagian ini, Anda perlu mengubah opsi bind to agar Netdata mendengarkan di semua alamat IP, bukan hanya localhost. Ubah konfigurasi sebagai berikut:
+```bash
+[web]
+    bind to = 0.0.0.0
+```
+- Restart Netdata
+```bash
+sudo systemctl restart netdata
+```
+- Cek Status Firewall
+```bash
+sudo ufw status
+
+# Membuka Port 19999
+sudo ufw allow 19999
+
+sudo ufw enable
+```
