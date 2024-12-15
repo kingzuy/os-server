@@ -185,3 +185,4 @@ sudo ufw enable
 <img src="assets/Screenshot (74).png">
 
 - Upload api_jwt
+<img src="assets/Screenshot (76).png">
