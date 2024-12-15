@@ -180,3 +180,6 @@ sudo ufw allow 19999
 
 sudo ufw enable
 ```
+- Config tipis<br>
+<img src="assets/Screenshot (73).png">
+<img src="assets/Screenshot (74).png">
