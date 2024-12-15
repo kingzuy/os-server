@@ -9,10 +9,10 @@
 - Storage 35 GB
 
 ## 🛠 Teknologi yang Akan Digunakan
-- Node.js
+- Node.js (15 Desember 2024)
 - LAMP (12 Desember 2024)
-- Docker
-- SSH
+- Docker (15 Desember 2024)
+- SSH (4 November 2024)
 - DNS (30 November 2024)
 - Netdata
 - Firewall (12 Desember 2024) 
@@ -71,7 +71,7 @@ sudo mysql
 # Ganti/Add Password
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
-. Install php
+- Install php
 ```bash
 # Install php
 sudo apt install php libapache2-mod-php php-mysql
@@ -97,3 +97,38 @@ buka cloudflare, lalu add domain , masukan nama domain kalian, lalu next, pilih 
 <img src="assets/WhatsApp Image 2024-12-02 at 02.04.13_0f336714.jpg">
 <img src="assets/WhatsApp Image 2024-12-01 at 18.35.43_b9dbcc4e.jpg">
 <img src="assets/WhatsApp Image 2024-12-01 at 18.33.35_49bc85d7.jpg">
+4. Install Node.js
+- Melakukan update
+```bash
+sudo apt update
+```
+- Install Dependensi yang Dibutuhkan
+```bash
+sudo apt install -y curl software-properties-common
+```
+- Menambahkan Repositori NodeSource
+```bash
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+```
+- Install Node.js
+```bash
+sudo apt install -y nodejs
+```
+- Verifikasi Instalasi
+```bash
+node -v
+```
+5. Install DOcker
+- Melakukan update
+```bash
+sudo apt update
+```
+- Install Docker
+```bash
+sudo apt install docker.io
+```
+```
+- Cek Docker
+```bash
+docker -v
+```
