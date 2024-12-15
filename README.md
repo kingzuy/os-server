@@ -196,5 +196,5 @@ sudo ufw enable
 docker images
 
 # Run container
-docker run -it -p 3000:3000 --name os-server-container 0s-server
+docker run -it -p 3000:3000 --name os-server-container os-server
 ```
