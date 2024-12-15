@@ -183,3 +183,5 @@ sudo ufw enable
 - Config tipis<br>
 <img src="assets/Screenshot (73).png">
 <img src="assets/Screenshot (74).png">
+
+- Upload api_jwt
