@@ -12,6 +12,7 @@
 - Node.js (15 Desember 2024)
 - LAMP (12 Desember 2024)
 - Docker (15 Desember 2024)
+- Screen (17 Desember 2024)
 - SSH (4 November 2024)
 - DNS (30 November 2024)
 - Netdata (15 Desember 2024)
@@ -126,7 +127,7 @@ sudo apt update
 ```
 - Install Docker
 ```bash
-sudo apt install docker.io
+sudo apt install docker.io docker-compose -y
 ```
 ```
 - Cek Docker
@@ -184,17 +185,40 @@ sudo ufw enable
 <img src="assets/Screenshot (73).png">
 <img src="assets/Screenshot (74).png">
 
+7. Screen
+```bash
+# Install screen
+sudo apt-get install screen
+```
+
+## 🛠 Deploy
 - Upload api_jwt
 <img src="assets/Screenshot (76).png">
 
 - Build Docker
 ```bash
-# Build image
- sudo docker build -t os-server .
+# Build image dan jalankan container
+docker-compose up --build -d
 
-# Cek image yang dibuat
-docker images
+# Cek status container
+docker-compose ps
 
-# Run container
-docker run -it -p 3000:3000 --name os-server-container os-server
+# Lihat logs jika ada masalah
+docker-compose logs app
+docker-compose logs mysql
+```
+
+- Use Screen
+```bash
+# Buat session baru
+screen -S nodejs
+
+# Jalankan aplikasi
+npm run dev
+
+# Keluar dari screen (tapi aplikasi tetap berjalan)
+Ctrl+A, kemudian D
+
+# Kembali ke session
+screen -r nodejs
 ```
